@@ -690,7 +690,7 @@ better_any = { version = "0.1", default-features = false }
 better_typeid_derive = { version = "0.1", default-features = false }
 bimap = { version = "0.6", features = ["std"] }
 bincode = { version = "1", default-features = false }
-bindgen = { version = "0.60", default-features = false, features = ["runtime"] }
+bindgen = { version = "0.61", default-features = false, features = ["runtime"] }
 bip32 = { version = "0.4", features = ["alloc", "bip39", "k256", "mnemonic", "once_cell", "pbkdf2", "secp256k1", "std"] }
 bit-set = { version = "0.5", features = ["std"] }
 bit-vec = { version = "0.6", default-features = false, features = ["std"] }
