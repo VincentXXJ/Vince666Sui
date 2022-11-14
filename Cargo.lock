@@ -3379,9 +3379,15 @@ dependencies = [
 
 [[package]]
 name = "io-lifetimes"
-version = "0.7.3"
+version = "0.7.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1ea37f355c05dde75b84bba2d767906ad522e97cd9e2eef2be7a4ab7fb442c06"
+checksum = "59ce5ef949d49ee85593fc4d3f3f95ad61657076395cbbce23e2121fc5542074"
+
+[[package]]
+name = "io-lifetimes"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a7d367024b3f3414d8e01f437f704f41a9f64ab36f9067fa73e526ad4c763c87"
 
 [[package]]
 name = "ipnet"
@@ -7000,7 +7006,7 @@ checksum = "fbb2fda4666def1433b1b05431ab402e42a1084285477222b72d6c564c417cef"
 dependencies = [
  "bitflags",
  "errno",
- "io-lifetimes",
+ "io-lifetimes 0.7.5",
  "libc",
  "linux-raw-sys",
  "windows-sys",
@@ -10698,7 +10704,7 @@ dependencies = [
  "instant",
  "integer-encoding",
  "internment",
- "io-lifetimes",
+ "io-lifetimes 1.0.1",
  "ipnet",
  "itertools",
  "itoa 0.4.8",
